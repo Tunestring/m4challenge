@@ -115,13 +115,13 @@ h1 {
   position: absolute;
   width: 100%;
   transform: scaleX(0);
-  height: 2px;
+  height: 1px;
   bottom: 0;
   left: 0;
   background-color: rgb(110, 14, 110);
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
-  font-style: italic;
+  box-shadow: inset 0px 0px 15px rgb(110, 14, 110), 0 0 30px rgb(110, 14, 110);
 }
 .scores:hover:after {
   transform: scaleX(1);
