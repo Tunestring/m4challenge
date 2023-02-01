@@ -1,0 +1,104 @@
+body {
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #dbe4ed;
+    color: #006997;
+    font-size: larger;
+  }
+  .wrapper {
+    margin: 100px auto 0 auto;
+    max-width: 600px;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .start {
+    text-align: center;
+  }
+  
+  .scores {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .feedback {
+    font-size: 120%;
+    margin-top: 20px;
+    padding-top: 10px;
+    color: #dbe4ed;
+  
+  }
+  
+  .timer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: larger;
+  }
+  
+  a {
+    color: #006997;
+    text-decoration: none;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  a:hover {
+    color: rgb(110, 14, 110);
+    transition: all 0.25s ease-in-out;
+    
+  }
+  
+  button {
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 100%;
+    background-color: #0087ca;
+    border-radius: 5px;
+    padding: 2px 10px;
+    color: #dbe4ed;
+    border: 0;
+    transition: all 0.25s ease-in-out;
+  
+  }
+  
+  button:hover {
+    background-color: rgb(110, 14, 110);
+  }
+  
+  .choices button {
+    display: block;
+  }
+  
+  input[type="text"] {
+    font-size: 100%;
+  }
+  
+  ol {
+    padding-left: 0px;
+    max-height: 400px;
+    overflow: auto;
+  }
+  
+  li {
+    padding: 5px;
+    list-style: decimal inside none;
+    border-bottom: black solid 1px;
+    text-align: center;
+  }
+  
+  li:nth-child(odd) {
+    background-color: #dbe4ed;
+  }
+  
+  button {
+    box-shadow: inset 0px 0px 4px #dbe4ed, 0 0 7px #006997;
+  }
+  h1 {
+    text-align: center;
+  }
